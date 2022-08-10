@@ -24,12 +24,12 @@ const Hero = () => {
     <div class="text-white ">
   <div class=" py-24 ">
     <div class=" flex flex-col sm:flex-row  text-center">
-      <h1 class="  text-4xl font-extrabold title-font text-white">Why AXES is the best choice.</h1>
-      <p class="flex-shrink-0 text-white  border-0 py-2 px-8  text-lg mt-10 sm:mt-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto <br /> saepe molestiae harum optio ullam recusandae, qui accusamus, iste sit velit eligendi eaque labore pariatur facere totam at officiis culpa iure!</p>
+      <h1 class="  text-4xl font-extrabold  text-white">Why AXES is the best choice.</h1>
+      <p class="flex-shrink-0 text-white  border-0 py-2 px-8  text-xl mt-10 sm:mt-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto <br /> saepe molestiae harum optio ullam recusandae, qui accusamus, iste sit velit eligendi eaque labore pariatur facere totam at officiis culpa iure!</p>
     </div>
   </div>
 </div>
-<img src={fullvid} alt="" className='w-full object-cover object-center p-4'/>
+<img src={fullvid} alt="" className='w-full object-cover object-center p-4 lg:p-4'/>
     </div>
     
    </div>
