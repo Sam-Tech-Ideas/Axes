@@ -1,6 +1,10 @@
 import React from 'react'
+import {FaTimes} from 'react-icons/fa'
+import {BiMenuAltRight} from 'react-icons/bi'
+import { useState } from 'react'
 
 const Navbar = () => {
+    const [nav,setNav] = useState(false);
     const links =[
         {
             id:1,
@@ -32,15 +36,33 @@ const Navbar = () => {
         <ul className='hidden md:flex'>
            {
             links.map(({id,link}) =>(
-                <li key={id} className='p-4 hover:text-blue-600 duration-300 text-lg'>{link}</li>
+                <li key={id} className='p-4 hover:text-blue-600 duration-300 text-lg cursor-pointer'>{link}</li>
             ))
            }
         </ul>
         <div className='hidden md:flex'>
-            <button className=' hover:text-white hover:bg-blue-600 px-4 border border-1-white py-1 rounded-md mr-4'>Contact Us</button>
+            <button className=' hover:text-white hover:bg-blue-700 px-4 border border-1-white py-1 rounded-md mr-4'>Contact Us</button>
         </div>
 
+        <div className=' md:hidden'>
+        <BiMenuAltRight size={30}/>
+        </div>
        </div>
+
+       {/**menu */}
+       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-full bg-gray-600/70 backdrop-blur':""}>
+        
+        <div className={nav ?'shadow-xl fixed left-0 top-0 w-4/5 bg-gra-600 text-white h-full p-10 ease-in duration-300': 'fixed top-0 left-[-100%] p-10 duration-300 ease-in h-full ' }>
+            <div className='flex items-center justify-between w-full text-white'>
+                <h3>Axes</h3>
+                <div>
+                    <FaTimes size={30}/>
+                </div>
+            
+            </div>
+        </div>
+       </div>
+
     </div>
   )
 }
