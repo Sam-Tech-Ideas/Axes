@@ -28,7 +28,7 @@ const Navbar = () => {
         }
     ]
   return (
-    <div className='bg-black w-screen h-20 text-white z-20  pb-3 mb-5 '>
+    <div className='bg-black w-screen h-20 text-white z-20  pb-3 mb-5 mx-auto'>
        <div className='flex items-center justify-between w-full h-full px-3'>
         <div className='flex items-center'>
             <h3 className='text-2xl font-bold'>Axes</h3>
@@ -44,7 +44,7 @@ const Navbar = () => {
             <button className=' hover:text-white hover:bg-blue-700 px-4 border border-1-white py-1 rounded-md mr-4'>Contact Us</button>
         </div>
 
-        <div className=' md:hidden'>
+        <div className=' md:hidden cursor-pointer p-3' onClick={() => {setNav(true)}}>
         <BiMenuAltRight size={30}/>
         </div>
        </div>
@@ -52,14 +52,20 @@ const Navbar = () => {
        {/**menu */}
        <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-full bg-gray-600/70 backdrop-blur':""}>
         
-        <div className={nav ?'shadow-xl fixed left-0 top-0 w-4/5 bg-gra-600 text-white h-full p-10 ease-in duration-300': 'fixed top-0 left-[-100%] p-10 duration-300 ease-in h-full ' }>
+        <div className={nav ?'shadow-xl fixed left-0 top-0 w-4/5 bg-black text-white h-full p-10 ease-in duration-300': 'fixed top-0 left-[-100%] p-10 duration-300 ease-in h-full ' }>
             <div className='flex items-center justify-between w-full text-white'>
-                <h3>Axes</h3>
-                <div>
+                <h3 className='text-xl font-bold p-3'>Axes</h3>
+                <div onClick={() => setNav(false)} className="cursor-pointer p-3">
                     <FaTimes size={30}/>
                 </div>
-            
             </div>
+            <ul className='pt-10'>
+            {
+            links.map(({id,link}) =>(
+                <li key={id} className='p-4 hover:text-blue-600 duration-300 text-lg cursor-pointer'>{link}</li>
+            ))
+           }
+            </ul>
         </div>
        </div>
 
