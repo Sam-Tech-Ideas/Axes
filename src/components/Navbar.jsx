@@ -28,7 +28,7 @@ const Navbar = () => {
         }
     ]
   return (
-    <div className=' w-screen h-20 text-white z-20  pb-3 mb-5 mx-auto'>
+    <div className=' w-screen h-20 text-white z-20  mx-auto'>
        <div className='flex items-center justify-between w-full h-full px-3'>
         <div className='flex items-center'>
             <h3 className='text-2xl font-bold'>Axes</h3>
