@@ -5,15 +5,17 @@ import './App.css'
 import Serv from './components/Serv'
 import Project from './components/Project'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className=''>
+    <div className=' '>
       <Navbar/>
       <Hero/>
       <Serv/>
       <Project/>
       <Contact/>
+      <Footer/>
     
     </div>
   )

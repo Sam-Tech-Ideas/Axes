@@ -28,7 +28,7 @@ const Navbar = () => {
         }
     ]
   return (
-    <div className=' w-screen h-20 text-white z-20  mx-auto'>
+    <div className=' w-screen  h-20 text-white z-20  '>
        <div className='flex items-center justify-between w-full h-full px-3'>
         <div className='flex items-center'>
             <h3 className='text-2xl font-bold'>Axes</h3>
@@ -40,8 +40,8 @@ const Navbar = () => {
             ))
            }
         </ul>
-        <div className='hidden md:flex'>
-            <button className=' hover:text-white hover:bg-blue-700 px-4 border border-1-white py-1 rounded-md mr-8 pr-6'>Contact Us</button>
+        <div className='hidden md:flex '>
+            <button className=' hover:text-white hover:bg-blue-700 px-4 border border-1-white py-1 rounded-md '>Contact Us</button>
         </div>
 
         <div className=' md:hidden cursor-pointer p-3' onClick={() => {setNav(true)}}>

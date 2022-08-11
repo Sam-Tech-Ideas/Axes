@@ -1,4 +1,5 @@
 import React from 'react'
+import v1 from '../assets/v2.svg'
 
 const Contact = () => {
   return (
@@ -10,6 +11,7 @@ const Contact = () => {
       <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">Contact us</button>
     </div>
   </div>
+  <img src={v1} alt="" className='p-3'/>
 </section>
     </div>
   )
