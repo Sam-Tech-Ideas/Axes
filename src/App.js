@@ -9,14 +9,13 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className=' '>
+    <div className=' container mx-auto'>
       <Navbar/>
       <Hero/>
       <Serv/>
       <Project/>
       <Contact/>
       <Footer/>
-    
     </div>
   )
 }

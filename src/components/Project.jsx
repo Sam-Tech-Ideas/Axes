@@ -2,6 +2,7 @@ import React from 'react'
 import v2 from '../assets/add.png'
 import v3 from '../assets/v2.svg'
 import v1 from '../assets/v1.svg'
+import img from '../assets/img.png'
 
 const Project = () => {
   return (
@@ -13,43 +14,31 @@ const Project = () => {
      <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     
-    <div class="flex flex-wrap -m-4">
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="bg-gray-100 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"/>
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src={img}/>
         </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Ecommerce</h2>
+       
       </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="bg-gray-100 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content"/>
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src={img}/>
         </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Ecommerce</h2>
+        
       </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="bg-gray-100 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content"/>
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src={img}/>
         </div>
-      </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="bg-gray-100 p-6 rounded-lg">
-          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content"/>
-          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-        </div>
+        <h2 class="text-xl font-medium title-font text-white mt-5">Ecommerce</h2>
+
       </div>
     </div>
   </div>
 </section>
-
 <img src={v1} className="p-3" alt="" />
     </div>
   )

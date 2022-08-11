@@ -40,7 +40,7 @@ const Navbar = () => {
             ))
            }
         </ul>
-        <div className='hidden md:flex '>
+        <div className='hidden md:flex mr-[126px]'>
             <button className=' hover:text-white hover:bg-blue-700 px-4 border border-1-white py-1 rounded-md '>Contact Us</button>
         </div>
 
