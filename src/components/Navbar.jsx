@@ -31,8 +31,8 @@ const Navbar = () => {
   return (
     <div className=' w-screen  h-20 text-white z-20  '>
        <div className='flex items-center justify-between w-full h-full px-3'>
-        <div className='flex items-center'>
-            <h3 className='text-2xl font-bold'><img src={axes} alt="" /></h3>
+        <div className='flex items-center pt-[40px]  mb-3'>
+    <img src={axes} alt="" height="" width="" className='h-40 w-40' />
         </div>
         <ul className='hidden md:flex'>
            {

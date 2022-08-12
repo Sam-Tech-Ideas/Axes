@@ -1,4 +1,5 @@
 import React from 'react'
+import axes from '../assets/axes.png'
 import {FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa'
 
 
@@ -27,10 +28,11 @@ const Footer = () => {
     <div>
         <footer class="text-white body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-       <span class="ml-3 text-xl">AxesTech</span>
+    <a class="flex  font-medium items-center md:justify-start justify-center ">
+      <img src={axes} alt="" className='w-40 h-40' />
+      
     </a>
-    <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Axes Technology 
+    <p class="text-xl text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Axes Technology 
      </p> 
      <p className="p-2"> Privacy Policy</p>
      <p className="p-2">Support</p>
