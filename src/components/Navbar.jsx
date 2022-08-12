@@ -41,7 +41,7 @@ const Navbar = () => {
            }
         </ul>
         <div className='hidden md:flex mr-[126px]'>
-            <button className=' hover:text-white hover:bg-blue-700 px-4 border border-1-white py-1 rounded-md '>Contact Us</button>
+            <button className='  hover:bg-white hover:text-black px-4 border border-1-white py-1 rounded-md '>Contact Us</button>
         </div>
 
         <div className=' md:hidden cursor-pointer p-3' onClick={() => {setNav(true)}}>
@@ -66,6 +66,9 @@ const Navbar = () => {
             ))
            }
             </ul>
+            <div>
+                <button className='bg-blue-600 w-full ml-3 rounded-md hover:bg-blue-800'>Contact us</button>
+            </div>
         </div>
        </div>
 

@@ -12,7 +12,7 @@ const Hero = () => {
       </h1>
       <p className="mb-8 ">Copper mug k pour-over freegan heirloom neutra air plant cold<br /> tacos poke beard tote bag. Heirloom ech tumeric truffaut hexagon try-hard chambray.</p>
       <div className="flex justify-center  ">
-        <button className=" text-white bg-indigo-500 border-0 py-2 px-3  hover:bg-indigo-600 rounded text-lg">Our Services</button>
+        <button className=" text-white bg-blue-600 border-0 py-2 px-3  hover:bg-blue-700 rounded text-lg">Our Services</button>
     </div>
    </div>
     
@@ -25,19 +25,13 @@ const Hero = () => {
     <section class="text-white ">
   <div class=" py-24 ">
     <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start text-center">
-      <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white">Slow-carb next level shoindxgoitch ethical authentic, scenester sriracha forage.</h1>
-      <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8  hover:bg-indigo-600  text-lg mt-10 sm:mt-0">Button</button>
+       <p class="flex-shrink-0 text-white  border-0 py-2 px-8 flex  text-lg mt-10 sm:mt-0 justify-center mr-3">Loremlabornumquam earum ut dolor ipsam.</p>
+       <p class="pl-3 flex-shrink-0 text-white  border-0 py-2 px-8 flex   text-lg mt-10 sm:mt-0 justify-center">Lorem ipsum, dolor sit , labore fugit, enim eius culpa inventore vel aliquid, eveniet ullam quas nisi pariatur numquam earum ut dolor ipsam.</p>
+   
     </div>
   </div>
 </section>
-   {/**  <div class="">
-  <div class=" py-24 ">
-    <div class=" flex flex-col sm:flex-row  text-center">
-      <h1 class="  text-4xl font-extrabold  text-white">Why AXES is the best choice.</h1>
-      <p class="flex-shrink-0 text-white  border-0 py-2 px-8  text-xl mt-10 sm:mt-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto <br /> saepe molestiae harum optio ullam recusandae, qui accusamus, iste sit velit eligendi eaque labore pariatur facere totam at officiis culpa iure!</p>
-    </div>
-  </div>
-</div>*/}
+
 <img src={fullvid} alt="" className='w-full object-cover object-center p-4 lg:p-4'/>
     </div>
     
