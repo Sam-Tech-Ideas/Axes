@@ -7,7 +7,7 @@ const Hero = () => {
 <div className="text-white body-font">
 <div className=" container flex px-5  md:flex-row flex-col items-center">
 <div className="lg:flex-grow md:w-1/2  flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-white">Buld Your  Awesome<br/>
+      <h1 className="  text-5xl mb-4 font-bold text-white">Build Your  Awesome<br/>
         Platform
       </h1>
       <p className="mb-8 ">Copper mug k pour-over freegan heirloom neutra air plant cold<br /> tacos poke beard tote bag. Heirloom ech tumeric truffaut hexagon try-hard chambray.</p>
