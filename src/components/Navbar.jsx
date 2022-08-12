@@ -2,6 +2,7 @@ import React from 'react'
 import {FaTimes} from 'react-icons/fa'
 import {BiMenuAltRight} from 'react-icons/bi'
 import { useState } from 'react'
+import axes from '../assets/axes.png'
 
 const Navbar = () => {
     const [nav,setNav] = useState(false);
@@ -31,7 +32,7 @@ const Navbar = () => {
     <div className=' w-screen  h-20 text-white z-20  '>
        <div className='flex items-center justify-between w-full h-full px-3'>
         <div className='flex items-center'>
-            <h3 className='text-2xl font-bold'>Axes</h3>
+            <h3 className='text-2xl font-bold'><img src={axes} alt="" /></h3>
         </div>
         <ul className='hidden md:flex'>
            {
