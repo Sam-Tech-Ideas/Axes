@@ -26,8 +26,7 @@ const Hero = () => {
   <div class=" py-24 ">
     <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start text-center">
        <p class="flex-shrink-0 text-white  border-0 py-2 px-8 flex  font-bold text-4xl mt-10 sm:mt-0 justify-center mr-3">Why Axes Is  The Best Choice?</p>
-       <p class="pl-3 flex-shrink-0 text-white  border-0 py-2 px-8 flex   text-lg mt-10 sm:mt-0 justify-center">Lorem ipsum, dolor sit , labore fugit, em ut dolor ipsam.</p>
-   
+       <p class="pl-3 flex-shrink-0 text-white  border-0 py-2 px-8 flex   text-lg mt-10 sm:mt-0 justify-center">We provide you the opportunity to interact with top professionals around the globe.</p>
     </div>
   </div>
 </section>

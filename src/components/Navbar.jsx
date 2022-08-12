@@ -29,7 +29,7 @@ const Navbar = () => {
         }
     ]
   return (
-    <div className=' w-screen  h-20 text-white z-20  '>
+    <div className=' w-screen  h-20 text-white z-20  mb-4'>
        <div className='flex items-center justify-between w-full h-full px-3'>
         <div className='flex items-center pt-[40px]  mb-3'>
     <img src={axes} alt="" height="" width="" className='h-40 w-40' />
@@ -42,7 +42,7 @@ const Navbar = () => {
            }
         </ul>
         <div className='hidden md:flex mr-[126px]'>
-            <button className='  hover:bg-white hover:text-black px-4 border border-1-white py-1 rounded-md '>Contact Us</button>
+            <button className='  hover:text-black px-4 border border-1-white py-1 rounded-lg hover:bg-blue-700'>Register</button>
         </div>
 
         <div className=' md:hidden cursor-pointer p-3' onClick={() => {setNav(true)}}>
@@ -55,8 +55,9 @@ const Navbar = () => {
         
         <div className={nav ?'shadow-xl fixed left-0 top-0 w-4/5 bg-black text-white h-full p-10 ease-in duration-300': 'fixed top-0 left-[-100%] p-10 duration-300 ease-in h-full ' }>
             <div className='flex items-center justify-between w-full text-white'>
-                <h3 className='text-xl font-bold p-3'>Axes</h3>
-                <div onClick={() => setNav(false)} className="cursor-pointer p-3">
+            <img src={axes} alt="" height="" width="" className='h-40 w-40' />
+   
+                 <div onClick={() => setNav(false)} className="cursor-pointer p-3">
                     <FaTimes size={30}/>
                 </div>
             </div>
@@ -68,7 +69,7 @@ const Navbar = () => {
            }
             </ul>
             <div>
-                <button className='bg-blue-600 w-full ml-3 rounded-md hover:bg-blue-800'>Contact us</button>
+                <button className='bg-blue-600 w-full ml-3 rounded-md hover:bg-blue-800 px-1 py-3'>Contact us</button>
             </div>
         </div>
        </div>
