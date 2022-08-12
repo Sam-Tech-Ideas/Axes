@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className=' w-screen  h-20 text-white z-20  mb-4'>
        <div className='flex items-center justify-between w-full h-full px-3'>
-        <div className='flex items-center pt-[40px]  mb-3'>
+        <div className='flex items-center pt-[40px]  pb-5'>
     <img src={axes} alt="" height="" width="" className='h-40 w-40' />
         </div>
         <ul className='hidden md:flex'>
@@ -42,7 +42,7 @@ const Navbar = () => {
            }
         </ul>
         <div className='hidden md:flex mr-[126px]'>
-            <button className='  hover:text-black px-4 border border-1-white py-1 rounded-lg hover:bg-blue-700'>Register</button>
+            <button className='  hover:text-white px-6   bg-blue-600 py-2 rounded hover:bg-blue-700'>Register</button>
         </div>
 
         <div className=' md:hidden cursor-pointer p-3' onClick={() => {setNav(true)}}>

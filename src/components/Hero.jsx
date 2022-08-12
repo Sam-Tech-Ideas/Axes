@@ -16,9 +16,14 @@ const Hero = () => {
     </div>
    </div>
     
-     <img src={image} alt="" className='' />
-
-
+     <img src={image} alt="image" className='' />
+     
+     <div data-tf-popover="tN829PH2" 
+     data-tf-button-color="#0445AF" 
+     data-tf-button-text="Launch me" 
+     data-tf-iframe-props="title=LearnWithAxes" 
+     data-tf-medium="snippet" style={{all:'unset'}}>
+      </div>
     </div>
     <div>
 
@@ -35,9 +40,6 @@ const Hero = () => {
     </div>
     
    </div>
-   
-
-
   )
 }
 
